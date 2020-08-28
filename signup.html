@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sign Up - Kad Smalls Inc.</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="Kad Smalls Inc.css">
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+</head>
+<div id="wrapper">
+<body>
+	<header>
+		<h1>KaD Smalls Inc (Ksi)</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li> 
+			<li><a href="buy-rent.html">Buy/Rent</a></li>  
+			<li><a href="sell.html">Sell</a></li> 
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+		<ul><li>
+			<a class="button" href="signup.html">Sign Up</a>
+		</li></ul>
+		<ul><li>
+			<img src="singing.png" width="150" height="100" alt="Singing book">
+		</li></ul>
+	</nav>
+	<aside>
+		<h3>Mall Shopping experience</h3>
+		<img src="mall.png" alt="Photo of a Mall" width="170" height="150">
+		<p>Get a Mall shopping experience with us. Listen to some good music while you surf our site trading with us.</p>
+		<label>Hendel - People Who Walk In Darkness</label>
+			<audio controls="controls" title="Hendel - People">
+			<source src="Hendel - People.mp3" type="audio/mpeg">
+			<a href="Hendel - People.mp3">Download Hendel - People Who walk in Darkness</a> (MP3)
+		</audio>
+	</aside>	
+	<main>
+	<div id="signupnow"></div>
+		<h2>Sign Up!</h2>
+			<p>Don't have an account yet? Create your account below.</p>
+			<p><i><small>All required fields have an asterisk</small></i>(*)</p>
+		<form name="signup_sheet" method="post" action="http://webdevbasics.net/scripts/demo.php">
+			<fieldset>
+				<legend>Create Your Account</legend>
+					<label for="myName">*Last Name:</label>
+					<input type="text" name="LName" id="LName" required="required">
+					<label for="myName">*First Name:</label>
+					<input type="text" name="FName" id="FName" required="required">
+					<label for="myEmail">*E-Mail:</label>
+					<input type="email" name="myEmail" id="myEmail" required="required">
+					<label for="mobile">Mobile:</label>
+					<input type="tel" name="mobile" id="mobile">
+					<label for="dob">*Date of Birth:</label>
+					<input type="date" name="dob" id="dob" required="required">
+					<label>Gender:</label>
+					<select size="1" name="gender" id="gender">
+						<option>Select your gender:</option>
+						<option value="Male">Male</option>
+						<option value="Female">Female</option>
+						<option value="Other">Other</option>
+					</select>
+					<label for="password">*Password:</label>
+					<input type="password" name="pw" id="pw" required="required">
+					<input type="submit" id="subscribe" value="Create Account"><input type="reset" id="reset">
+			</fieldset>		
+		</form>
+		<br>
+		<h3>Want to be updated with latest deals and savings?</h3>
+		<p>Sign up for our monthly news letters.</p>
+		<i><small>All required fields have an asterisk</small></i>(*)
+			<form method="post" action="http://webdevbasics.net/scripts/demo.php">
+				<fieldset>
+				<legend>Email subscription</legend>
+					<label for="myName">*Name:</label>
+					<input type="text" name="myName" id="myName" Required>
+					<label for="myEmail">*E-Mail:</label>
+					<input type="email" name="myEmail" id="myEmail" Required>
+					<input type="submit" id="subscribe" value="Sign Up"><input type="reset" id="reset">
+				</fieldset>
+			</form>
+	</main>
+	<footer>
+		<p>
+		Copyright &copy; 2020 Kad Smalls Inc.<br>
+		<a href="mailto:dkubong8146@student.gwinnetttech.edu">Daniel@Kubong-alah.com</a>
+		</p>
+		<label class="pur">Services</label>
+		<a href="purchase.html" class="pur">About purcahses</a>
+		<a href="delivery.html" class="pur">Tracking Delivery</a>
+	</footer>
+
+</body>
+</div>
+</html>
